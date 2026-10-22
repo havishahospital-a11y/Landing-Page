@@ -1,9 +1,7 @@
-# Secrets and environment configuration
-.env
-.env.*
-!.env.example
+@"
 appointments/.env
-
-# PHP session files
+appointments/storage/sessions/*
+!appointments/storage/sessions/.gitkeep
+"@ | Add-Content .gitignoreappointments/.env
 appointments/storage/sessions/*
 !appointments/storage/sessions/.gitkeep
