@@ -1,0 +1,225 @@
+@charset "UTF-8";
+:root{--blue:#0E6398;--red:#D76227;--ink:#152f43;--muted:#586b79;--line:#dce4e9;--pale:#f2f6f9;--white:#fff;font-family:"Google Sans",Arial,Helvetica,sans-serif;font-optical-sizing:auto;font-variation-settings:"GRAD" 0;color:var(--ink);background:#fff;font-synthesis:none}*{box-sizing:border-box}body{margin:0;font-size:16px;line-height:1.6}a{color:inherit;text-underline-offset:4px}button,input,select,textarea{font:inherit}button,a,input,select,textarea,summary{-webkit-tap-highlight-color:transparent}button{cursor:pointer}img{max-width:100%;height:auto;display:block}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.13}h1{font-size:clamp(42px,4.6vw,66px);letter-spacing:-2.8px;font-weight:500}h1 em{font-style:normal;color:var(--blue)}h2{font-size:clamp(30px,3vw,42px);font-weight:500;letter-spacing:-1.4px}h3{font-size:19px;font-weight:600}p{color:#000}p+p{margin-top:16px}.wrap{width:min(1180px,calc(100% - 80px));margin-inline:auto}.section{padding-block:86px}.eyebrow{font-size:11px;letter-spacing:2px;font-weight:700;color:var(--red);margin-bottom:20px}.button{display:inline-flex;justify-content:center;align-items:center;gap:26px;border:1px solid var(--blue);border-radius:5px;background:var(--blue);color:white;padding:15px 22px;text-decoration:none;font-size:14px;font-weight:600;line-height:1.4;min-height:48px}.button:hover{background:var(--red);border-color:var(--red)}.button:disabled{opacity:.7;cursor:wait}.button.small{padding:11px 18px;min-height:44px}.text-link{display:inline-flex;gap:28px;font-size:14px;font-weight:700;color:var(--blue);text-decoration:none;border-bottom:1px solid #adc5e7;padding-bottom:5px}.caption{font-size:12px;line-height:1.65}.preview-note{text-align:center;padding:5px 16px;background:#fff4df;color:#725323;font-size:11px}.header{height:100px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{text-decoration:none}.brand-name{display:block;font-size:27px;font-weight:800;letter-spacing:2px;line-height:1;color:var(--blue);text-decoration:none}.brand-name span{display:block;color:var(--red);font-size:11px;letter-spacing:6px;margin-top:8px}.header-branch{font-size:13px;display:flex;gap:8px;align-items:center;margin-right:auto;margin-left:45px}.location-dot{width:7px;height:7px;border-radius:50%;background:var(--red)}.hero{border-top:1px solid #edf1f4;background:#f7f9fb;padding:56px 0 60px}.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:62px;align-items:start}.hero-copy{padding-top:18px}.intro{margin-top:24px;font-size:16px;max-width:450px}.offer{display:flex;gap:24px;align-items:center;margin-top:28px;padding-block:22px;border-block:1px solid #d7e0e7}.price{font-size:44px;font-weight:600;letter-spacing:-2px;line-height:1}.price span{display:block;font-size:12px;letter-spacing:0;font-weight:400;color:var(--muted);margin-top:7px}.offer>div{border-left:1px solid #cddae3;padding-left:24px;font-size:14px}.offer strong{display:block;max-width:230px;line-height:1.45}.offer>div>span{font-size:12px;display:block;margin-top:5px;color:var(--muted)}.followup{font-size:13px;margin-top:16px}.hero-doctor{display:flex;align-items:center;margin-top:23px;gap:14px;overflow:hidden}.hero-doctor img{width:145px;height:130px;object-fit:cover;object-position:65% top;mix-blend-mode:multiply}.hero-doctor>div>span{display:block;font-size:9px;letter-spacing:1.5px;color:var(--muted)}.hero-doctor strong{display:block;font-size:15px;margin-top:6px}.hero-doctor a{display:block;font-size:11px;margin-top:8px;color:var(--blue)}.form-panel{background:white;border:1px solid var(--line);border-radius:8px;padding:29px 30px;box-shadow:0 10px 30px #163f6010;scroll-margin-top:20px}.form-heading .eyebrow{font-size:9px;margin-bottom:10px}.form-heading h2{font-size:26px;letter-spacing:-.6px}.form-heading p{font-size:12px;margin-top:9px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px 14px;margin-top:25px}.full{grid-column:1/-1}.field{min-width:0}.field label,legend{display:block;font-size:12px;font-weight:600;margin-bottom:7px}.field label span,legend>span{color:var(--red)}input:not([type=checkbox]),select,textarea{width:100%;border:1px solid #ccd6dd;border-radius:4px;background:white;color:var(--ink);padding:11px 12px;min-height:44px;font-size:13px}input::placeholder,textarea::placeholder{color:#798893}textarea{resize:vertical}fieldset{border:0;padding:0;margin:0;min-width:0}legend{padding:0}.symptoms>p{font-size:11px;margin:-3px 0 9px}.symptom-options{display:flex;flex-wrap:wrap;gap:7px}.symptom-options label{display:flex;align-items:center;gap:6px;border:1px solid #dce3e8;padding:6px 9px;border-radius:4px;font-size:11px;cursor:pointer;min-height:34px}.symptom-options label:has(input:checked){background:#edf5ff;border-color:#8cb5ed}.symptom-options input{margin:0;width:13px;height:13px;accent-color:var(--blue)}.date-help{font-size:12px;line-height:1.6}.consent{display:flex;align-items:flex-start;gap:8px;font-size:12px;color:var(--muted)}.consent input{flex:none;width:15px;height:15px;margin:1px 0 0;accent-color:var(--blue)}.consent a{color:var(--blue)}.submit{width:100%;margin-top:0}.form-foot{text-align:center;font-size:11px;margin-top:-8px}.trap{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.field-error{font-size:12px;color:#a72618;display:block;margin-top:5px}.field-error:empty{display:none}.error-summary{margin-top:18px;padding:15px;background:#fff1ee;border:1px solid #e9aa9e;color:#8f2419;font-size:13px}.error-summary ul{padding-left:18px;margin-bottom:0}.care-strip{border-bottom:1px solid var(--line)}.care-strip .wrap{display:flex;justify-content:space-between;padding-block:23px;font-size:12px;color:#455b6c}.care-strip span:before{content:'✓';color:var(--blue);margin-right:12px}.specialist{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}.portrait{background:#edf2f5;position:relative;overflow:hidden;border-radius:5px}.portrait img{width:100%;aspect-ratio:1.18;object-fit:cover;object-position:64% top;mix-blend-mode:multiply}.portrait>span{position:absolute;bottom:20px;left:24px;color:#547081;font-size:9px;letter-spacing:2px}.specialist h3{margin-top:24px}.specialist p:not(.eyebrow){font-size:14px;margin-top:18px}.specialist .text-link{margin-top:25px}.testimonials{background:#f5f7f8}.section-top{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}.section-top>p{font-size:13px}.video-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.video-frame{aspect-ratio:4/3;background:#142b3b;border-radius:5px;overflow:hidden}.video-play{display:block;position:relative;padding:0;border:0;width:100%;height:100%;color:white;background:#152f43}.video-play img{width:100%;height:100%;object-fit:cover;opacity:.8}.play-mark{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);display:grid;place-items:center;padding-left:3px;width:52px;height:52px;background:white;color:var(--blue);border-radius:50%;font-size:16px}.video-label{position:absolute;bottom:0;left:0;right:0;background:#122b43d9;padding:14px 18px;display:flex;justify-content:space-between;font-size:10px;letter-spacing:1px}.video-card>a{display:flex;justify-content:space-between;margin-top:14px;font-size:14px;text-decoration:none;font-weight:600}.video-frame iframe{width:100%;height:100%;border:0}.testimonials .caption{margin-top:22px}.symptoms-section{display:grid;grid-template-columns:1fr 1fr;gap:100px}.symptoms-section>div>p:not(.eyebrow){margin-top:20px;max-width:360px;font-size:14px}.symptoms-section>div>p.caption{font-size:12px}.symptom-list>div{display:flex;gap:22px;padding:20px 0;border-bottom:1px solid var(--line)}.symptom-list>div:first-child{padding-top:0}.line-cross{color:var(--blue);font-size:23px;line-height:1}.symptom-list h3{font-size:16px}.symptom-list p{font-size:13px;margin-top:8px}.visit{background:#edf4fa}.steps{list-style:none;counter-reset:step;padding:0;margin:42px 0 0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px}.steps li{counter-increment:step;border-top:1px solid #b7cddd;padding-top:20px}.steps li:before{content:'0' counter(step);font-size:13px;color:var(--blue);display:block;margin-bottom:27px}.steps h3{font-size:17px}.steps p{font-size:13px;margin-top:13px}.treatment{display:grid;grid-template-columns:1fr 1fr;gap:90px}.large-copy{font-size:21px;color:var(--ink);margin-bottom:15px}.treatment p:not(.eyebrow):not(.large-copy){font-size:14px}.treatment blockquote{border-left:3px solid var(--red);padding:5px 0 5px 22px;margin:24px 0;font-size:17px;line-height:1.6}.fees{background:#f6f7f8}.fees-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px;align-items:start}.fees-grid>div>p:not(.eyebrow){margin-top:22px;font-size:14px;max-width:370px}.fee-sheet{background:white;border:1px solid var(--line);border-radius:6px;padding:30px}.fee-sheet>div{border-bottom:1px solid var(--line);padding-block:20px}.fee-sheet>div:first-child{padding-top:0}.fee-sheet h3{font-size:16px}.fee-sheet p{font-size:13px;margin-top:9px}.fee-main{display:flex;justify-content:space-between;gap:20px}.fee-main>strong{font-size:42px;letter-spacing:-1.5px;color:var(--blue);line-height:1.2}.fee-sheet .fee-exclusion{font-size:11px;margin-top:20px}.faq{display:grid;grid-template-columns:.9fr 1.1fr;gap:90px}.faq details{border-bottom:1px solid var(--line);padding:20px 0}.faq details:first-child{padding-top:0}.faq summary{display:flex;justify-content:space-between;align-items:center;gap:20px;list-style:none;font-size:15px;font-weight:600;cursor:pointer;min-height:30px}.faq summary::-webkit-details-marker{display:none}.faq summary span{color:var(--blue);font-size:22px;font-weight:400}.faq details[open] summary span{transform:rotate(45deg)}.faq details p{font-size:14px;margin-top:15px}.location{background:#eef3f7}.location-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.hospital-photo{position:relative}.hospital-photo img{aspect-ratio:1.2;object-fit:cover;border-radius:5px}.hospital-photo>span{display:block;font-size:10px;color:var(--muted);margin-top:7px}.location h2{font-size:36px}.location address{font-style:normal;font-size:14px;color:var(--muted);margin-top:23px;max-width:360px}.hours{margin:24px 0 8px;font-size:13px}.hours>div{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid #d2dee7;padding:8px 0}.hours dd{margin:0}.location-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:25px}.location-actions .button{font-size:12px;gap:10px}.location-actions .text-link{font-size:12px}.phone-link{font-size:12px;margin-top:20px}.footer{display:flex;justify-content:space-between;gap:30px;align-items:center;padding-block:35px}.footer .brand-name{font-size:20px}.footer .brand-name span{font-size:8px;letter-spacing:4.8px}.footer p{font-size:12px}.footer nav{display:flex;gap:22px;font-size:11px}.mobile-cta{display:none}.skip{position:absolute;top:-100px;left:10px;z-index:20;background:white;padding:10px}.skip:focus{top:5px}:focus-visible{outline:3px solid #df623a;outline-offset:4px}[hidden]{display:none!important}.confirmation{max-width:720px;padding-block:65px}.confirmation>.brand-name{margin-bottom:60px}.confirmation h1{font-size:48px;margin-bottom:25px}.confirmation p{margin-block:22px}.confirmation dl{background:var(--pale);padding:24px;margin-block:28px}.confirmation dt{font-size:12px;color:var(--muted);margin-top:10px}.confirmation dd{margin:0;font-weight:600}.reference{overflow-wrap:anywhere}.confirmation .eyebrow{margin-bottom:15px}
+@media(min-width:1400px){.hero-grid{gap:85px}.hero-copy{padding-top:30px}}
+@media(max-width:1000px){.wrap{width:calc(100% - 48px)}.hero-grid{gap:30px}.hero-copy h1{font-size:49px}.form-panel{padding:24px 20px}.header-branch{margin-left:15px}.offer{gap:15px}.offer>div{padding-left:15px}.offer strong{font-size:12px}.specialist,.symptoms-section,.treatment,.fees-grid,.faq{gap:45px}.location-grid{gap:35px}.hero-doctor img{width:115px}.hero-doctor strong{font-size:13px}.section{padding-block:65px}.form-grid{grid-template-columns:1fr}.field{grid-column:1/-1}.care-strip .wrap{gap:20px}.care-strip span{font-size:10px}}
+@media(max-width:760px){.wrap{width:calc(100% - 36px)}.header{height:84px;gap:12px}.brand-name{font-size:22px}.brand-name span{font-size:8px;letter-spacing:5.4px}.header-branch{font-size:11px;margin-left:auto}.header .button{display:none}.hero{padding:32px 0}.hero-grid{grid-template-columns:1fr;gap:28px}.hero-copy{padding:0}.hero-copy h1{font-size:49px;letter-spacing:-2px}.hero-copy h1 br:last-of-type{display:none}.eyebrow{font-size:10px;letter-spacing:1.5px}.intro{font-size:15px;margin-top:20px}.offer{max-width:470px}.offer strong{font-size:14px}.hero-doctor{margin-top:15px}.hero-doctor img{height:110px;width:130px}.hero-doctor strong{font-size:15px}.hero-doctor a{font-size:12px}.followup br{display:none}.form-panel{padding:24px 20px}.form-grid{grid-template-columns:1fr 1fr}.field{grid-column:auto}.field.full{grid-column:1/-1}input:not([type=checkbox]),select,textarea{font-size:16px}.care-strip .wrap{justify-content:start;flex-wrap:wrap;gap:10px 22px;padding-block:18px}.care-strip span{font-size:11px}.section{padding-block:52px}.specialist,.symptoms-section,.treatment,.fees-grid,.faq,.location-grid{grid-template-columns:1fr;gap:30px}.specialist .portrait{max-width:450px}.portrait img{aspect-ratio:1.35}.section-top{display:block}.section-top>p{margin-top:16px}.video-grid{gap:14px;grid-template-columns:1fr}.video-frame{aspect-ratio:16/10}.video-card{margin-bottom:15px}.video-label{font-size:11px}.symptom-list>div:first-child{padding-top:15px}.steps{grid-template-columns:1fr 1fr;gap:28px 22px;margin-top:30px}.steps li:before{margin-bottom:17px}.fees-grid>div>p:not(.eyebrow){max-width:none}.fee-sheet{padding:24px}.faq details:first-child{padding-top:15px}.location h2{font-size:33px}.hospital-photo img{aspect-ratio:1.4}.footer{flex-wrap:wrap;gap:22px;padding-bottom:104px}.footer p{display:none}.footer nav{flex-wrap:wrap;gap:17px}.mobile-cta{display:flex;position:fixed;bottom:12px;left:18px;right:18px;z-index:10;box-shadow:0 0 0 10px #ffffffed;padding-bottom:calc(15px + env(safe-area-inset-bottom))}.mobile-cta.is-hidden,.mobile-cta.input-focused{display:none}.confirmation{padding-block:35px}.confirmation h1{font-size:38px}.preview-note{font-size:9px}}
+@media(max-width:400px){.form-grid{grid-template-columns:1fr}.hero-copy h1{font-size:43px}.offer>div>span{font-size:11px}.offer strong{font-size:12px}.price{font-size:39px}.header-branch{font-size:10px}.hero-doctor strong{font-size:13px}.form-heading h2{font-size:24px}.steps{grid-template-columns:1fr}.location-actions{gap:20px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+/* Lead with the screening benefit. */
+.hero .offer{display:flex;flex-direction:column;align-items:flex-start;gap:10px}.hero .offer>div{border-left:0;padding-left:0}.hero .offer strong{max-width:none;font-size:clamp(23px,2.3vw,31px);line-height:1.2;color:var(--blue);letter-spacing:-.6px}.hero .offer>div>span{font-size:13px;margin-top:9px}.hero .offer .price{font-size:15px;letter-spacing:0;line-height:1.5;font-weight:500;color:var(--muted)}.fee-main>strong{font-size:20px;letter-spacing:0;white-space:nowrap}
+
+/* Supplied hospital artwork, sized without distortion. */
+.brand{flex-shrink:0}.brand-logo{width:108px;height:auto}.footer .brand-logo{width:98px}.confirmation>.brand{display:inline-block;margin-bottom:40px}.hero-doctor>div>span{color:var(--red)}
+@media(max-width:760px){.brand-logo{width:84px}.header-branch{margin-left:auto}}
+
+/* Keep paragraph copy black while preserving coloured section labels. */
+p:not(.eyebrow){color:#000}
+
+/* Quiet motion: short transitions and one-time section reveals. */
+@media(prefers-reduced-motion:no-preference){
+ html{scroll-behavior:smooth}
+ .button{transition:background-color .2s ease,border-color .2s ease,box-shadow .2s ease,transform .2s ease}
+ .text-link{transition:color .2s ease,border-color .2s ease}
+ .video-play img,.hospital-photo img,.portrait img{transition:transform .45s ease}
+ .play-mark{transition:transform .2s ease,background-color .2s ease,color .2s ease}
+ .faq summary span{transition:transform .2s ease}
+ @media(hover:hover) and (pointer:fine){
+  .button:not(:disabled):hover{transform:translateY(-2px);box-shadow:0 5px 14px #152f431a}
+  .button:not(:disabled):active{transform:translateY(0);box-shadow:none}
+  .text-link:hover{color:var(--red);border-color:var(--red)}
+  .video-play:hover img,.portrait:hover img{transform:scale(1.025)}
+  .video-play:hover .play-mark{transform:translate(-50%,-50%) scale(1.08);background:var(--blue);color:white}
+ }
+}
+@media print{.mobile-cta{display:none}*{animation:none!important;transition:none!important}}
+
+/* Reveal content rather than moving entire section backgrounds. */
+@media(prefers-reduced-motion:no-preference){
+ .reveal-content{opacity:1;transform:none;transition:opacity .45s ease,transform .45s cubic-bezier(.2,.65,.3,1)}
+ .reveal-content.reveal-pending{opacity:0;transform:translateY(12px)}
+}
+@media(prefers-reduced-motion:reduce){.reveal-content{opacity:1!important;transform:none!important}}
+@media print{.reveal-content{opacity:1!important;transform:none!important}}
+
+.hero-copy h1{font-size:clamp(36px,3.7vw,52px);letter-spacing:-1.6px;line-height:1.15}.treatment-options{padding-left:20px;margin:22px 0;color:#000;font-size:14px}.treatment-options li+li{margin-top:12px}
+
+/* Responsive assessment and treatment imagery. */
+.care-image{margin:26px 0 0;max-width:480px}.care-image img{width:100%;height:auto;border-radius:5px}.care-image figcaption{font-size:12px;line-height:1.6;color:#000;margin-top:10px}.visit-intro{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center}.visit-intro>div>p:not(.eyebrow){margin-top:22px;max-width:390px}.visit-intro .care-image{margin:0;width:100%}
+@media(max-width:760px){.visit-intro{grid-template-columns:1fr;gap:26px}.care-image{max-width:100%}}
+
+/* Appointment calendar: in-flow expansion keeps mobile controls unobscured. */
+.date-picker{min-width:0}.date-trigger{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:46px;padding:11px 12px;border:1px solid #ccd6dd;border-radius:4px;background:#fff;color:var(--muted);font-size:13px;text-align:left}.date-trigger.has-date{color:var(--ink)}.date-trigger[aria-expanded="true"]{border-color:var(--blue)}.date-trigger[aria-invalid="true"]{border-color:#a72618}.date-trigger>span:last-child{color:var(--blue);font-size:21px;line-height:1}.date-calendar{margin-top:10px;padding:12px 8px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 6px 18px #152f430c}.calendar-heading{display:flex;align-items:center;justify-content:space-between;gap:4px;margin-bottom:14px}.calendar-month{font-size:13px;text-align:center}.calendar-heading button{border:0;border-radius:5px;background:var(--pale);color:var(--blue);width:30px;height:32px;font-size:24px;line-height:1}.calendar-heading button:disabled{opacity:.3;cursor:default}.calendar-week,.calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}.calendar-week{font-size:10px;text-align:center;color:var(--muted);margin-bottom:7px}.calendar-days button{padding:0;border:0;border-radius:5px;min-width:0;min-height:29px;aspect-ratio:1;color:var(--blue);background:#edf5fa;font-size:12px;font-weight:600}.calendar-days button:disabled{color:#a7b0b7;background:transparent;font-weight:400;cursor:default}.calendar-days button:not(:disabled):hover{background:var(--red);color:#fff}.calendar-days button.selected{background:var(--blue);color:#fff}.calendar-days button:focus-visible{outline-offset:0;outline-width:2px}.calendar-note{font-size:10px;line-height:1.5;margin-top:12px!important}.calendar-days{touch-action:manipulation}
+@media(max-width:760px){.date-trigger{font-size:16px}.calendar-days button{min-height:32px}}
+@media(min-width:401px) and (max-width:760px){.field:has(.date-picker){grid-column:1/-1}}
+
+/* Float the calendar without changing the form row height. */
+.date-picker{position:relative}
+.date-calendar{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:300px;max-width:calc(100vw - 76px);margin-top:0;box-shadow:0 12px 32px #152f4326;max-height: min(420px,65vh);overflow-y:auto;overscroll-behavior:contain}
+@media(max-width:400px){.date-calendar{width:100%;max-width:none}}
+
+/* Match active calendar dates to the orange button-hover accent. */
+.calendar-days button:not(:disabled){background:#fff0e7;color:var(--red)}
+.calendar-days button.selected,.calendar-days button:not(:disabled):hover{background:var(--red);color:#fff}
+.calendar-heading button:not(:disabled){color:var(--red)}
+.date-trigger[aria-expanded="true"]{border-color:var(--red)}
+.date-trigger[aria-expanded="true"]>span:last-child{color:var(--red)}
+
+.location .hospital-association{font-size:18px;line-height:1.5;font-weight:500;margin-top:16px;color:#000}
+
+/* A language switch remains available independently of the mobile header. */
+@media(min-width:761px){.header{display:none}}
+.language-bar{display:flex;align-items:center;justify-content:flex-end;gap:12px;padding-block:12px;font-size:12px;color:#000}.language-options{display:flex;border:1px solid var(--line);border-radius:5px;overflow:hidden}.language-options button{border:0;background:#fff;color:var(--ink);font:inherit;padding:9px 14px;cursor:pointer;min-height:40px}.language-options button[aria-pressed="true"]{background:var(--blue);color:white}.language-options button:hover{background:var(--red);color:#fff}
+html[lang="ta"]{font-family:"Google Sans","Noto Sans Tamil",Arial,sans-serif}html[lang="ta"] h1,html[lang="ta"] h2,html[lang="ta"] h3{letter-spacing:0;line-height:1.5}html[lang="ta"] .hero-copy h1{font-size:clamp(27px,3vw,40px)}html[lang="ta"] h2{font-size:clamp(24px,2.4vw,32px)}html[lang="ta"] .eyebrow{letter-spacing:0;line-height:1.8}html[lang="ta"] .form-heading h2{font-size:22px}html[lang="ta"] .form-grid{grid-template-columns:1fr}html[lang="ta"] .field{grid-column:1/-1}html[lang="ta"] .calendar-month{font-size:12px}html[lang="ta"] .button{line-height:1.7}html[lang="ta"] .offer strong{font-size:25px;letter-spacing:0}html[lang="ta"] .header-branch{font-size:10px}.symptoms[lang="ta"],#other-field[lang="ta"],.symptoms-section[lang="ta"]{font-family:"Noto Sans Tamil","Google Sans",sans-serif}.symptoms[lang="ta"] legend{line-height:1.8}.symptom-options label{line-height:1.8}.symptoms-section[lang="ta"] h2{font-size:30px;letter-spacing:0;line-height:1.6}.symptoms-section[lang="ta"] h3{line-height:1.7}
+@media(max-width:760px){.language-bar{padding-block:8px}.language-bar>span{font-size:10px}html[lang="ta"] .footer nav{flex-wrap:wrap}.hours>div{flex-wrap:wrap}}
+
+html[lang="ta"] .steps{grid-template-columns:repeat(4,minmax(0,1fr))}html[lang="ta"] .steps li{min-width:0;overflow-wrap:anywhere}@media(max-width:1000px){html[lang="ta"] .steps{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:400px){html[lang="ta"] .steps{grid-template-columns:1fr}}
+
+/* Horizontal replacement logo: preserve artwork proportions. */
+.brand-logo{width:190px;height:auto}.footer .brand-logo{width:170px}@media(max-width:760px){.brand-logo{width:155px}.footer .brand-logo{width:155px}}
+
+/* Make the branch telephone easy to find and tap. */
+.location .phone-link{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;margin-top:24px;padding:14px 18px;background:#fff0e7;border-left:4px solid var(--red);border-radius:4px;font-size:14px;font-weight:600}
+.location .phone-link a{color:var(--blue);font-size:22px;font-weight:700;text-decoration:none;line-height:1.5;white-space:nowrap}
+.location .phone-link a:hover{color:var(--red);text-decoration:underline}
+
+/* Prominent care benefits, treatment labels and branch consultation hours. */
+.care-strip .wrap{gap:32px;padding-block:32px}
+.care-strip span{display:flex;align-items:center;font-size:clamp(17px,1.55vw,21px);font-weight:650;line-height:1.35;color:var(--blue)}
+.care-strip span:before{font-size:19px;flex:none}
+.treatment .large-copy{font-size:clamp(27px,2.5vw,36px);font-weight:600;letter-spacing:-.8px;line-height:1.2;color:var(--blue);margin-bottom:22px}
+.treatment-options strong{color:var(--blue);font-weight:700}
+.location .hours{margin-top:28px;font-size:18px;line-height:1.4}
+.location .hours>div{padding:13px 0;align-items:center}
+.location .hours dt{font-weight:700;color:var(--blue)}
+.location .hours dd{font-weight:600;color:var(--ink)}
+@media(max-width:760px){.care-strip .wrap{display:grid;grid-template-columns:1fr;padding-block:25px;gap:16px}.care-strip span{font-size:17px}.location .hours{font-size:17px}.location .hours>div{flex-wrap:nowrap}.treatment .large-copy{font-size:28px}}
+
+/* Make the Tamil symptom choices easier to read and tap. */
+.symptoms legend{font-size:16px;line-height:1.5;font-weight:700;color:var(--ink);margin-bottom:6px}
+.symptoms>p{font-size:12px;line-height:1.5;margin:0 0 10px}
+.symptom-options{gap:7px}
+.symptom-options label{font-size:13px;line-height:1.4;min-height:38px;padding:7px 10px;gap:7px}
+.symptom-options input{width:15px;height:15px}
+#other-field label{font-size:13px}
+@media(max-width:760px){.symptoms legend{font-size:16px}.symptoms>p{font-size:13px}.symptom-options label{font-size:14px;min-height:42px;padding:8px 10px}}
+
+/* Balance the shorter hero message against the taller appointment form. */
+@media(min-width:761px){.hero-grid{align-items:stretch}.hero-copy{display:flex;flex-direction:column;justify-content:center;padding-top:0}}
+@media(max-width:760px){.hero-copy{display:block;padding-top:0}}
+
+/* Compact multi-select dropdown for symptoms. */
+.symptom-dropdown{position:relative}
+.symptom-dropdown summary{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px;padding:10px 12px;border:1px solid #ccd6dd;border-radius:4px;background:#fff;color:var(--ink);font-size:14px;line-height:1.4;cursor:pointer;list-style:none}
+.symptom-dropdown summary::-webkit-details-marker{display:none}
+.symptom-dropdown .dropdown-arrow{color:var(--blue);font-size:20px;line-height:1;transition:transform .18s ease}
+.symptom-dropdown[open] .dropdown-arrow{transform:rotate(180deg)}
+.symptom-dropdown .symptom-options{position:absolute;z-index:12;top:calc(100% + 6px);left:0;right:0;display:grid;gap:3px;max-height:250px;overflow:auto;padding:7px;background:#fff;border:1px solid #ccd6dd;border-radius:5px;box-shadow:0 12px 28px #152f4324}
+.symptom-dropdown .symptom-options label{position:relative;display:flex;align-items:center;justify-content:space-between;min-height:40px;padding:8px 10px;border:0;border-radius:4px;font-size:14px;cursor:pointer}
+.symptom-dropdown .symptom-options label:hover{background:#f2f6f9}
+.symptom-dropdown .symptom-options label:has(input:checked){background:#fff0e7;color:var(--blue);font-weight:700}
+.symptom-dropdown .symptom-options label:has(input:checked):after{content:'✓';color:var(--red);font-size:16px;font-weight:700}
+.symptom-dropdown .symptom-options input{position:absolute;width:1px;height:1px;opacity:0;pointer-events:none}
+.symptom-dropdown .symptom-actions{position:sticky;bottom:-7px;display:flex;justify-content:flex-end;gap:8px;margin:4px -7px -7px;padding:10px;background:#fff;border-top:1px solid var(--line)}
+.symptom-dropdown .symptom-actions button{min-height:38px;padding:7px 16px;border:1px solid var(--blue);border-radius:4px;font-size:13px;font-weight:700}
+.symptom-dropdown .symptom-cancel{background:#fff;color:var(--blue)}
+.symptom-dropdown .symptom-continue{background:var(--blue);color:#fff}
+.symptom-dropdown .symptom-actions button:hover{border-color:var(--red)}
+.symptom-dropdown .symptom-continue:hover{background:var(--red)}
+.symptom-dropdown .symptom-cancel:hover{color:var(--red)}
+@media(max-width:760px){.symptom-dropdown summary,.symptom-dropdown .symptom-options label{font-size:16px}.symptom-dropdown .symptom-options{max-height:280px}}
+
+/* Two-tab doctor profile. */
+.doctor-profile{padding-top:72px}
+.doctor-tabs{display:flex;justify-content:center;gap:44px;border-bottom:1px solid var(--line);margin-bottom:54px}
+.doctor-tabs button{position:relative;border:0;background:transparent;color:#607585;padding:0 10px 18px;font-size:18px;font-weight:500}
+.doctor-tabs button[aria-selected="true"]{color:var(--blue)}
+.doctor-tabs button[aria-selected="true"]:after{content:'';position:absolute;left:0;right:0;bottom:-1px;height:3px;background:var(--blue)}
+.doctor-profile-grid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:90px;align-items:center}
+.doctor-portrait{position:relative;overflow:hidden;border-radius:7px;background:#edf2f5}
+.doctor-portrait img{width:100%;aspect-ratio:4/4.45;object-fit:cover;object-position:64% top;mix-blend-mode:multiply}
+.doctor-portrait>span{position:absolute;left:20px;right:20px;bottom:18px;padding:9px 12px;background:#0e6398e8;color:#fff;border-radius:3px;font-size:10px;font-weight:700;letter-spacing:1.1px;text-align:center}
+.doctor-panel h2{color:var(--blue)}
+.doctor-panel>p:not(.eyebrow){font-size:14px;line-height:1.75;margin-top:17px}
+.doctor-role{font-size:16px!important;font-weight:600;color:var(--red)!important}
+.doctor-facts{margin:28px 0 22px}
+.doctor-facts>div{display:grid;grid-template-columns:125px 1fr;gap:20px;padding:7px 0}
+.doctor-facts dt{font-weight:700;color:#536a7b}
+.doctor-facts dd{margin:0;color:#000;overflow-wrap:anywhere}
+.doctor-facts a{color:var(--blue)}
+.doctor-social{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:25px}
+.doctor-social>span{width:125px;font-weight:700;color:#536a7b}
+.doctor-social a{display:grid;place-items:center;width:38px;height:38px;padding:0;border:1px solid #cddae3;border-radius:50%;color:var(--blue);text-decoration:none}
+.doctor-social a svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.doctor-social a:first-of-type svg{fill:currentColor;stroke:none}
+.doctor-social a svg .solid{fill:currentColor;stroke:none}
+.doctor-social a:hover{background:var(--red);border-color:var(--red);color:#fff}
+.doctor-working{margin-top:25px;padding-top:22px;border-top:1px solid var(--line)}
+.doctor-working h3{color:var(--blue);font-size:22px;margin-bottom:12px}
+.doctor-working p{font-size:14px;margin-top:7px}
+.doctor-working strong,.doctor-panel>p strong{color:var(--blue)}
+.doctor-highlight{margin-top:25px;padding:20px 22px;background:#EDF2F5;border-left:4px solid var(--blue);border-radius:4px}
+.doctor-highlight span{display:block;color:var(--red);font-size:10px;font-weight:700;letter-spacing:1.5px}
+.doctor-highlight>strong{display:block;color:var(--blue);font-size:20px;line-height:1.35;margin-top:7px}
+.doctor-highlight p{font-size:13px;margin-top:8px}
+@media(max-width:760px){.doctor-profile{padding-top:52px}.doctor-tabs{gap:12px;margin-bottom:30px}.doctor-tabs button{flex:1;padding-inline:4px;font-size:15px}.doctor-profile-grid{grid-template-columns:1fr;gap:30px}.doctor-portrait{max-width:480px}.doctor-portrait img{aspect-ratio:1.15}.doctor-facts>div{grid-template-columns:105px 1fr;gap:12px}.doctor-social>span{width:100%;margin-bottom:3px}}
+
+/* Visit-step icons. */
+.step-icon{display:grid;place-items:center;width:50px;height:50px;margin-bottom:20px;border-radius:50%;background:#fff;color:var(--blue);box-shadow:0 6px 18px #0e63981a}
+.step-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.steps li:hover .step-icon{background:var(--red);color:#fff;transform:translateY(-3px)}
+.step-icon{transition:background-color .2s ease,color .2s ease,transform .2s ease}
+@media(max-width:760px){.step-icon{width:46px;height:46px;margin-bottom:16px}.step-icon svg{width:24px;height:24px}}
+
+/* Vertically center the treatment copy beside its heading and image. */
+.treatment>div:last-child{align-self:center}
+@media(max-width:760px){.treatment>div:last-child{align-self:auto}}
+
+/* The landing-page branch is fixed by its URL. */
+#branch[readonly]{background:#f2f6f9;color:var(--blue);font-weight:700;cursor:default;text-transform:capitalize}
+
+/* Bilingual form labels use the Tamil font when Google Sans has no Tamil glyphs. */
+.form-panel label,.form-panel legend,.form-panel input,.form-panel textarea,.form-panel summary,.form-panel button,.form-panel .form-foot{font-family:"Google Sans","Noto Sans Tamil",Arial,sans-serif}
+.form-panel label,.form-panel legend{line-height:1.55}
+.city-field>label,.date-field>label{display:flex;align-items:flex-end;min-height:40px}
+.submit{font-size:13px;gap:14px}
+.submit-copy{display:inline;white-space:nowrap;line-height:1.45}
+.submit-copy>span{display:inline;font-family:"Noto Sans Tamil","Google Sans",sans-serif}
+@media(max-width:400px){.city-field>label,.date-field>label{min-height:0}}
+@media(max-width:760px){.submit{font-size:12px}.submit-copy{display:flex;flex-direction:column;align-items:center;white-space:normal}.submit-copy>span{display:block}}
+
+/* Four-card testimonial story with a reversible desktop scroll transition. */
+.testimonial-stage{padding-block:76px}
+.testimonials .section-top{text-align:center;justify-content:center}
+.testimonials .section-top>p{margin-top:14px}
+.testimonials .video-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:34px}
+@media(min-width:901px) and (min-height:720px){
+  .testimonial-scroll{height:190vh;position:relative}
+  .testimonial-stage{position:sticky;top:0;height:100vh;padding-block:0;overflow:hidden}
+  .testimonial-scroll .section-top{position:absolute;z-index:1;top:50%;left:50%;display:block;width:min(390px,36%);margin:0;transform:translate(-50%,-50%);will-change:transform,opacity}
+  .testimonial-scroll .video-grid{display:block}
+  .testimonial-scroll .video-card{position:absolute;z-index:2;width:30%;will-change:transform,opacity}
+  .testimonial-scroll .video-card:nth-child(1){top:4%;left:0}
+  .testimonial-scroll .video-card:nth-child(2){top:4%;right:0;z-index:3}
+  .testimonial-scroll .video-card:nth-child(3){bottom:4%;left:0}
+  .testimonial-scroll .video-card:nth-child(4){right:0;bottom:4%}
+  .testimonial-scroll .video-frame{aspect-ratio:16/9}
+}
+@media(max-width:900px), (max-height:719px){.testimonial-stage{padding-block:60px}.testimonials .video-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.testimonial-stage{padding-block:52px}.testimonials .section-top{text-align:left}.testimonials .video-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.testimonial-scroll{height:auto!important}.testimonial-stage{position:relative!important;height:auto!important}.testimonial-scroll .video-grid{display:grid!important}.testimonial-scroll .video-card{position:relative!important;inset:auto!important;width:auto!important;transform:none!important}.testimonial-scroll .section-top{position:relative!important;inset:auto!important;width:auto!important;opacity:1!important;transform:none!important}}
+
+/* Click-to-play testimonial modal; native dialog provides focus containment. */
+html.video-modal-open{overflow:hidden;scrollbar-gutter:stable}
+.video-modal{width:min(480px,calc(100vw - 28px));max-height:calc(100dvh - 28px);margin:auto;padding:16px;border:0;border-radius:10px;background:#fff;color:var(--ink);box-shadow:0 24px 80px #0005;overflow-y:auto}
+.video-modal::backdrop{background:#102a40cc}
+.video-modal-heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px}
+.video-modal-heading h2{font-size:18px;letter-spacing:0;line-height:1.4}
+.video-modal-close{display:grid;place-items:center;flex:none;width:42px;height:42px;border:0;border-radius:5px;background:var(--pale);color:var(--blue);font-size:30px;line-height:1}
+.video-modal-close:hover{color:#fff;background:var(--red)}
+.video-modal-player{height:min(65dvh,680px);background:#000;border-radius:5px;overflow:hidden}
+.video-modal-player iframe{display:block;width:100%;height:100%;border:0}
+.video-modal-help{font-size:12px;line-height:1.6;margin-top:12px}.video-modal-help a{color:var(--blue);font-weight:600}
+@media(prefers-reduced-motion:no-preference){.video-modal[open]{animation:video-modal-enter .18s ease-out}@keyframes video-modal-enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}}
+
+.submission-status{font-size:13px;line-height:1.65;color:var(--ink);padding:12px;background:#edf5fa;border-radius:4px}.submission-status:empty{display:none}.submission-status p+p{margin-top:8px}

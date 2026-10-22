@@ -1,0 +1,11 @@
+# Upload as public_html/appointments/public/.htaccess.
+# Only this directory is public; overrides the parent's access denial.
+Require all granted
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+RewriteRule (^|/)\. - [F,L]
+RewriteRule ^(?:app|config|storage|database|tests|deploy|vendor)(?:/|$) - [F,L,NC]
+RewriteRule \.(?:sql|log|env|ini|bak)$ - [F,L,NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]

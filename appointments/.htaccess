@@ -1,0 +1,21 @@
+# Upload as public_html/appointments/.htaccess.
+# Fixed subdomain document root: public_html/appointments.
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+<IfModule !mod_rewrite.c>
+    Require all denied
+</IfModule>
+<IfModule mod_rewrite.c>
+    Require all granted
+    RewriteEngine On
+    RewriteRule (^|/)\. - [F,END]
+    RewriteRule ^(?:app|config|storage|database|tests|deploy|public|vendor|node_modules)(?:/|$) - [F,END,NC]
+    # Serve only browser assets from public/assets, never the source assets folder.
+    RewriteRule ^assets/([a-zA-Z0-9_-]+\.(?:css|js|png|jpe?g|gif|svg|webp|ico|woff2?|ttf|otf))$ public/assets/$1 [END]
+    RewriteRule ^index\.php$ - [END]
+    RewriteRule \. - [F,END]
+    RewriteRule ^ index.php [END]
+</IfModule>
+<FilesMatch "^\.">
+    Require all denied
+</FilesMatch>
